@@ -30,7 +30,7 @@ def time_it(func):
         round_time = round(time_taken, 2)
 
         # add log info
-        logger.debug(f"Time Taken By function {func.__name__}: " + str(round_time))
+        logger.info(f"Time Taken By function {func.__name__}: " + str(round_time))
 
         # return results
         return result

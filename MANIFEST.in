@@ -1,1 +1,2 @@
 recursive-include tesseract_ocr/data *
+recursive-include tesseract_ocr/reference_material/*

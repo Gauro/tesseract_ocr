@@ -13,7 +13,7 @@ if __name__ == '__main__':
         parser.add_argument("--oem", help="Engine Type", type=int, default=1)
         parser.add_argument("--output_format", nargs='+', help="List possible output formats needed", default=['txt'])
         parser.add_argument("--char_wise_extraction", help="Set True for Character Level Extraction", type=bool,
-                            default=1)
+                            default=False)
 
         # Read arguments from command line
         args = parser.parse_args()
@@ -49,6 +49,6 @@ if __name__ == '__main__':
                                          pbol_generate_hocr_output=lbool_generate_hocr_output,
                                          pbol_char_wise_extraction=lbool_char_wise_extraction)
 
-        print(ldict_output)
+        # print(ldict_output)
     except Exception as e:
-        logger.error()
+        logger.error(str(e))
