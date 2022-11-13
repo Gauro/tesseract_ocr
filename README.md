@@ -57,10 +57,9 @@ On Terminal, activate virtual env and run :
 └── setup.py
 ```
 
--
-    - Tesseract offers good extractions on good quality of input documents. In case of poor quality documents, can use
-      Character Level Confidence of extractions in identiying error in extraction (advisable to perform extractions in
-      HOCR format)
+- Tesseract offers good extractions on good quality of input documents. In case of poor quality documents, can use
+  Character Level Confidence of extractions in identiying error in extraction (advisable to perform extractions in HOCR
+  format)
 
 - To have a further in depth understanding of the workings of Tesseract, please refer
   https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/33418.pdf
