@@ -31,8 +31,8 @@ On Terminal, activate virtual env and run :
 - python 3.6+
 - Linux 18.04
 - python libraries (can be installed from requirement.txt inside reference material)
-- Leptonica (refer installation doc Tesseract_OCR_Installation.docx)
-- Tesseract (refer installation doc Tesseract_OCR_Installation.docx)
+- Leptonica (refer installation guide doc Tesseract_Leptonica_InstallationGuide.txt)
+- Tesseract (refer installation guide doc Tesseract_Leptonica_InstallationGuide.txt)
 
 # File Structure
 
@@ -51,15 +51,17 @@ On Terminal, activate virtual env and run :
 |   |   └── __init__.py
 |   ├── reference_material
 |   |   └── requirement.txt
-|   |   └── Tesseracr_OCR_Installation.docx
+|   |   └── Tesseract_Leptonica_InstallationGuide.txt
+|   |   └── sample_input
+|   |   └── sample_outputs
 ├── README.md
 ├── MANIFEST.in
 └── setup.py
 ```
 
-- Tesseract offers good extractions on good quality of input documents. In case of poor quality documents, can use
-  Character Level Confidence of extractions in identiying error in extraction (advisable to perform extractions in HOCR
-  format)
+- Tesseract offers good extractions on good quality of input documents. In case of poor quality documents, we can make
+  use of Character Level Confidence of extractions in identiying error in extraction (advisable to perform extractions
+  in HOCR format to get char level extractions with confidence scores)
 
 - To have a further in depth understanding of the workings of Tesseract, please refer
   https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/33418.pdf
